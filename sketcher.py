@@ -16,4 +16,4 @@ inv_blur_img=255-blur_img;
 sketch=cv2.divide(gray_img,inv_blur_img,scale=240.0);
 
 #printing the sketch file
-cv2.imwrite("sketch.jpg",sketch);
+cv2.imwrite("output.jpg",sketch);
